@@ -1,0 +1,100 @@
+table{
+  border: none;
+}
+
+.box-1{
+
+  background-color: #C5E9F2;
+}
+
+.box-2{
+  height:100%;
+  align-items: center;
+  text-align: left;
+  justify-content: left;
+  background-color: #FCC9AB;
+}
+
+.box-3{
+  text-align: center;
+  background-color: #ffffff;
+  justify-items: center;
+}
+
+.box-4{
+  background-color: #FCC9AB;
+  text-align: right;
+}
+
+.box-5{
+  height:100%;
+  align-items: center;
+  text-align: left;
+  justify-content: left;
+  background-color: #D0F0BF;
+}
+.box-6{
+  word-break: break-all;
+  height:100px;
+  margin-bottom: 1px;
+  margin-top: auto;
+  background-color: #C5E9F2;
+ 
+}
+.bot-left{
+  margin-top: auto;
+  margin-bottom: 0px;
+  height:min-content;
+}
+.bot-right{
+  padding: 20px 20px;
+  text-align: right;
+  margin-top: auto;
+  margin-bottom: 0px;
+  height:min-content;
+}
+.bottom{
+  height:200px;
+}
+.top{
+  height:200px;
+}
+.center{
+  height: auto;
+}
+.first-h{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40%;
+  margin-right: 10px;
+  background-color: #ffffff;
+  align-items: center;
+  text-align: left;
+}
+.first-text{
+  padding:25px 25px;
+  text-align: left;
+}
+
+.bot-h{
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-right: 10%;
+  min-width: 30%;
+  min-height: 15%;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: right;
+}
+
+
+.my-menu{
+  margin-left: -15px;
+}
+body{
+  font-size: 18px;
+}
+
+table {
+  table-layout: fixed;
+}

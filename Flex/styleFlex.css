@@ -1,0 +1,181 @@
+body{
+  height:100%;
+  font-size: 18px;
+}
+.main{
+height:100%;
+}
+
+.top{
+  flex: 0 0 auto;
+}
+.wrapper {
+  align-items:stretch;
+  display: flex;
+  height: auto;
+}
+.left{
+  display: flex;
+  height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+  width:75%;    /*  box 2,3,5,6 */
+}
+.center{
+  flex: 1 1 auto;
+  width: 100%;
+  display:flex; /*  box 2,3,5 */
+}
+.center-left{
+  
+  width:50%; /*box 2,5*/
+    display: flex;
+    height: auto;
+    flex-direction: column;
+
+    align-items: stretch;
+}
+
+
+
+.top{
+  display:flex;
+  align-items: center;
+  justify-content: right;
+  flex-grow: 1;
+}
+
+
+
+.second-h {
+  display: flex;
+  align-self: center;
+  justify-content: right;
+  margin-right: 30px;
+  font-size: 15px;
+  background-color: white;
+}
+
+
+
+
+.box-1 {
+  padding:25px 25px;
+  text-align: left;
+    display: flex;
+  flex-grow: 1;
+  align-items: center;
+  text-align: left;
+  height: min-content;
+  word-wrap: break-word;
+  width: auto;
+  background-color: #c5e9f2;
+  padding: 45px 0px;
+  
+}
+.box-2 {
+  height: 100%;
+  display: flex;
+  padding-right: 35px;
+  align-items: center;
+  text-align: left;
+  word-break: break-all;
+  width: auto;
+  background-color: #fcc9ab;
+  
+  justify-content: left;
+}
+.box-3 {
+  display: flex;
+  flex-direction: column  ;
+  padding: 5px 5px;
+  align-items: center;
+  justify-content: center;
+  word-break: break-all;
+  width: calc(125%/4*3);
+  height: 100%;
+  background-color: white;
+  
+}
+.box-4 {
+  padding: 10px 10px;
+  display: flex;
+  padding-left: 35px;
+  align-items: center;
+  text-align: right;
+  word-break: break-all;
+  word-break: break-all;
+  background-color: #fcc9ab;
+  width:25%;
+  height: auto;
+  
+}
+.box-5 {
+  height: 100%;
+  width:calc(125%/4);
+  display: flex;
+  padding-right: 35px;
+  align-items: center;
+  text-align: left;
+  word-break: break-all;
+  width: auto;
+  background-color: #d0f0bf;
+  
+  justify-content: left;
+
+}
+     
+.box-6 {
+  display: flex;
+  flex: 0 1 auto;
+  margin-top: auto;
+  margin-bottom: 0px;
+  align-items: center;
+  text-align: right;
+  justify-content:space-between ;
+  width: auto;
+  padding: 25px 20px;
+  background-color: #c5e9f2;
+  height: min-content;
+  text-align: right;
+  
+}
+      
+.my-menu{
+  margin-left: -17px;
+}
+.first-text{
+  padding:25px 25px;
+  text-align: left;
+  width:70%;
+}
+.first-h{
+  margin-left: 30px;
+  margin-right: 20px;
+  background-color: #ffffff;
+width: 30%;
+  align-items: center;
+  text-align: left;
+}
+.second-h{
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 10%;
+  min-width: 30%;
+  min-height: 15%;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: right;
+}
+      
+
+      
+
+
+      .my-li a:visited {
+        color: #000;
+        text-decoration: none;
+      }
+
+      
