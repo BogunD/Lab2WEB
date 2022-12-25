@@ -347,7 +347,7 @@
     
 
 /* #########################  M E D I U M  ################################ */
-@media only screen and (min-device-width: 350px) and (max-device-width: 900px) {
+@media only screen and (min-width: 350px) and (max-width: 900px) {
   body {
   width: auto;
   height: auto;
@@ -533,7 +533,7 @@
 
 
 /* #########################  S M A L L  ################################ */
-@media only screen and (max-device-width: 350px) {
+@media only screen and (max-width: 350px) {
   body {
   width: auto;
   height: auto;
